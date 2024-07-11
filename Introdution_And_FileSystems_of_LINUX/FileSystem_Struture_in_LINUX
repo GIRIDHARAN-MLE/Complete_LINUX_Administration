@@ -1,24 +1,30 @@
-The Linux file system structure is a tree-like model that includes multiple layers, each with its own role in managing and organizing data on storage devices. At the top of the hierarchy is the root directory (/), which contains all other directories and files.
+"""The Linux file system structure is a tree-like model that includes multiple layers, each with its own role in
+managing and organizing data on storage devices. At the top of the hierarchy is the root directory (/), which
+contains all other directories and files."""
 
 Each directory in Linux file system has a specific function, Some of a few key directories are listed below :
 
 / (root directory):
-The root directory is the top-level directory in the Linux file system. All other directories and files are contained within the root directory.
+The root directory is the top-level directory in the Linux file system. All other directories and files are
+contained within the root directory.
 
 /bin:
-The /bin stands for binaries. This directory contains essential command-line tools and programs that are required for basic system administration tasks.
+The /bin stands for binaries. This directory contains essential command-line tools and programs that are required 
+for basic system administration tasks.
 
 /boot:
 The /boot directory contains the boot loader files and kernel images needed to start the system.
 
 /dev:
-The /dev directory contains device files that represent hardware devices and virtual devices such as terminals, printers, and disks.
+The /dev directory contains device files that represent hardware devices and virtual devices such as terminals,
+printers and disks.
 
 /etc:
 The /etc directory contains system configuration files that are used by various applications and services on the system.
 
 /home:
-The /home directory contains the home directories of users on the system. Each user has their own subdirectory within /home where they can store their personal files and settings.
+The /home directory contains the home directories of users on the system. Each user has their own subdirectory
+within /home where theycan store their personal files and settings.
 
 /lib:
 The /lib directory contains shared library files that are needed by various programs on the system.
